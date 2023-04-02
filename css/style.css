@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/**Aplicar estilos globales: body, encabezado, etiquetas de texto, de navegacion**/
+body {
+  background-color: rgb(214, 211, 211);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+/**span no hace nada mas que generar una division en la misma linea**/
+span {
+  text-align: center;
+  font-size: 1rem;
+  text-transform: lowercase;
+  text-transform: capitalize;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  padding-top: 0px;
+}
+
+.barraNav {
+  border: solid black 0.5px;
+  border-radius: 2px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=style.css.map */
