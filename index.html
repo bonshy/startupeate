@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -16,12 +17,14 @@
     <header>
         <h1><img class="logo" src="img/startupeate.webp" alt=""> Startupeate S.A <span> Ideas Realizadas</span></h1>
     </header>
-    <nav  class="barraNav">
-        <a href="index.html">Inicio</a>
-        <a href="html/nosotros.html">Nosotros</a>
-        <a href="html/clientes.html">Clientes</a>
-        <a href="html/contacto.html">Contacto</a>
+    <div class="navBg">
+    <nav class="barraNav contenedor">
+        <a class="subCont" href="index.html">Inicio</a>
+        <a class="subCont" href="html/nosotros.html">Nosotros</a>
+        <a class="subCont" href="html/clientes.html">Clientes</a>
+        <a class="subCont" href="html/contacto.html">Contacto</a>
     </nav>
+    </div>
     <section>
         <h2>Una idea sin desarrollar, es solo una idea sin valor</h2>
         <h3>Transformando ideas en negocios</h3>
@@ -30,7 +33,7 @@
     <main>
         <h2>Servicios</h2>
         <section>
-            <svg xmlns=" http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-accessible" width="44"
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-accessible" width="44"
                 height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round"
                 stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
