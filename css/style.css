@@ -48,14 +48,15 @@ span {
   padding-top: 0px;
 }
 
+.contenedor {
+  margin: auto;
+}
+
 .barraNav {
-  width: 100%;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 7.5px;
-  border: var(--oscuro) 2px solid;
+  text-transform: capitalize;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
 }
 
 .barraNav a {
@@ -64,27 +65,31 @@ span {
 }
 
 .navBg {
-  background-color: #008B8B;
+  background-color: var(--azules);
   display: block;
 }
 
-.contenedor {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .barraNav a:hover {
-  color: var(--blanco);
+  color: var(--oscuro);
   background-color: var(--primario);
   display: flex;
   justify-content: space-around;
 }
 
-/**definir como :root son pseudoelementos no son clases definidas en el html**/
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .barraNav {
-    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 100px 5px 100px;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-weight: 600;
+    font-size: medium;
+  }
+  span {
+    font-size: small;
   }
 }
 

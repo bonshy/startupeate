@@ -1,6 +1,17 @@
-@media (max-width: 768px) {
-    .barraNav {
-        display: block;
+@media (min-width: 768px){
+    .barraNav{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5px 100px 5px 100px;
     }
 }
-
+@media (max-width: 480px){
+    h1{
+        font-weight: 600;
+        font-size: medium;
+    }
+    
+    span{
+        font-size: small;
+    }
+}
