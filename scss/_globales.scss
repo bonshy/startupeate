@@ -75,4 +75,11 @@ span {
     margin-right: auto;
 }
 
+.barraNav a:hover{
+    color:var(--blanco);
+    background-color: var(--primario);
+    display:flex;
+    justify-content: space-around;
+}
+
 /**definir como :root son pseudoelementos no son clases definidas en el html**/
