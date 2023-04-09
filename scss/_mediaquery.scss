@@ -1,17 +1,43 @@
-@media (min-width: 768px){
-    .barraNav{
+@media (min-width: 768px) {
+    .barraNav {
         flex-direction: row;
         justify-content: space-between;
         padding: 5px 100px 5px 100px;
     }
 }
-@media (max-width: 480px){
-    h1{
+
+@media (max-width: 480px) {
+    h1 {
         font-weight: 600;
         font-size: medium;
     }
-    
-    span{
+
+    span {
         font-size: small;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-contenedor {
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        width: auto;
+    }
+
+    .alineacion-derecha {
+        justify-content: center;
     }
 }

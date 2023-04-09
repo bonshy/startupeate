@@ -1,0 +1,49 @@
+.formulario {
+    background-color: var(--grises);
+    width: 600px;
+    padding: 20px;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+}
+
+.formulario legend {
+    color: var(--primario);
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .contenedor-campo {
+        display: grid;
+        grid-template-areas:
+            "colA colB";
+        column-gap: 10px;
+    }
+}
+
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.input-text {
+    color: var(--blanco);
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    padding: 15px;
+}
+
+.area {
+    height: 100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
+}
